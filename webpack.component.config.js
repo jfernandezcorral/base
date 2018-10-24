@@ -1,7 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 let config = {
-  entry: ['./client/index-component.js'],
+  entry: ['./src/index-component.js'],
   output: {
     path: path.resolve(__dirname,'./lib'),
     library: 'reactcomponent',
@@ -12,7 +12,7 @@ let config = {
   resolve: {
     extensions: ['.js', '.jsx', '.css', '.scss'],
     alias: {
-      cmp: path.resolve(__dirname,'./client/componentes')
+      cmp: path.resolve(__dirname,'./src/componentes')
     }
   },
   externals : {
