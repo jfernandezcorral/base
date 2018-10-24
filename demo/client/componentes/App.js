@@ -1,8 +1,6 @@
 import React from 'react';
 import estilos from'./App.scss';
-import {modal} from 'cmp/base/modal'
-import {menu} from 'cmp/base/menu'
-import Hello from 'cmp/Hello'
+import {modal, menu, Hello} from '../../../lib/index'
 export default class App extends React.Component {
     constructor(props) {
         super(props)
